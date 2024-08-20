@@ -459,7 +459,7 @@ const Sunchart = () => {
     }
   }, []);
   return (
-    <div id="main-chart" style={{width: 1000, height: 1000}}>
+    <div id="main-chart" style={{width: "100vw", height: "100vh"}}>
       {/* <ReactECharts option={this.Option()} /> */}
       {/* <button onClick={chartings}>CLick me</button> */}
       {/* {option && myChart.setOption(option, true)} */}
